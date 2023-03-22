@@ -1,0 +1,33 @@
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.breadcrumbs .crumb::after {
+  content: ">";
+  margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child::after {
+  display: none;
+}
+
+.breadcrumbs .crumb a {
+  color: #555;
+}
+
+.crumb a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 7px 17px;
+  background-color: #ffde7b;
+  color: #ffffff;
+  border-radius: 20px;
+}

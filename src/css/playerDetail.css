@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.item {
+  margin: 50px auto;
+  max-width: 800px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.item span {
+  font-weight: bold;
+  margin-left: 8%;
+  font-size: 18px;
+}
+
+.item-id {
+  margin-top: 20px;
+}
+
+.item-team {
+  margin-top: 10px;
+}
+
+.item-leages {
+  margin-top: 10px;
+}
+
+.item-nation {
+  margin-top: 10px;
+}
+
+.item-age {
+  margin-top: 10px;
+}
+
+.item-desc {
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-top: 10px;
+}
+
+.item-no {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
